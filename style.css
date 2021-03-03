@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5.625rem;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 60px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.75rem;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  width: 60%;
+  margin: 0 auto 0 auto;
+
+}
+
+
+
+.container_one {
+  background-color: #fecd1a;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.container_two {
+  background-color: #f3f0d1;
+  width: 100%;
+  margin: 0;
+}
+
+.container_three {
+  background-color: #faf6e9;
+  width: 100%;
+  margin: 0;
+}
+
+.container_four {
+  background-color: #f0a500;
+  width: 100%;
+  margin: 0;
+}
+
+.splatter {
+  width: 25%;
+  padding-top: 15px inherit;
+
+}
+
+.wallpaper {
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  width: 15%;
+
+}
+
+.author_image {
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  width: 25%;
+
+}
+
+.zonked_out {
+  border-radius: 50%;
+  width: 25%;
+  padding-bottom: 40px;
+
+}
+
+.inner_text {
+  margin: 0;
+  padding: 0px 30px 50px 30px;
+}
