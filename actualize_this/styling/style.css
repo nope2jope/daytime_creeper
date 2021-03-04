@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-image: url('https://englishwithmrspierce.files.wordpress.com/2016/10/theyellowwallpaper.jpg');
+  color: #4a3933;
 }
 
 h1 {
@@ -13,6 +15,7 @@ h2 {
   margin: 0;
   font-size: 1.75rem;
   padding-top: 50px;
+  padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -32,34 +35,71 @@ p {
   font-family: 'Roboto', sans-serif;
   width: 60%;
   margin: 0 auto 0 auto;
+  line-height: 2;
 
 }
 
 
 
 .container_one {
-  background-color: #fecd1a;
   position: relative;
   width: 100%;
   margin: 0;
 }
 
 .container_two {
-  background-color: #f3f0d1;
+  background-color: #fbeeac;
   width: 100%;
   margin: 0;
+  padding-bottom: 20px;
+  overflow: hidden;
 }
 
 .container_three {
-  background-color: #faf6e9;
+  background-color: #f3f0d1;
+  overflow: hidden;
   width: 100%;
   margin: 0;
+  padding-bottom: 40px;
 }
 
 .container_four {
   background-color: #f0a500;
   width: 100%;
   margin: 0;
+}
+
+.footer {
+  background-color: #f4d160;
+  bottom: 0;
+  position: sticky;
+  color: #4a3933;
+  min-height: 40px;
+  width: 100%;
+  margin: 0;
+
+}
+
+.foot_text_a {
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.foot_list {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.foot_text_b {
+  padding: 5px;
+  padding-bottom: 20px;
+  font-size: .75rem;
+  right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #f3f0d1;
 }
 
 .splatter {
@@ -70,17 +110,17 @@ p {
 
 .wallpaper {
   border-radius: 50%;
-  padding-top: 15px;
-  padding-bottom: 0px;
-  width: 15%;
+  width: 20%;
+  float: right;
+  margin: 10px 60px 10px 40px;
 
 }
 
 .author_image {
   border-radius: 50%;
-  padding-top: 15px;
-  padding-bottom: 0px;
   width: 25%;
+  float: left;
+  margin: 40px 40px 0px 60px;
 
 }
 
@@ -94,4 +134,46 @@ p {
 .inner_text {
   margin: 0;
   padding: 0px 30px 50px 30px;
+}
+
+.BUTTON_HQI {
+   background: #F6DA3D;
+   background-image: -webkit-linear-gradient(top, #F6DA3D, #D0A01E);
+   background-image: -moz-linear-gradient(top, #F6DA3D, #D0A01E);
+   background-image: -ms-linear-gradient(top, #F6DA3D, #D0A01E);
+   background-image: -o-linear-gradient(top, #F6DA3D, #D0A01E);
+   background-image: -webkit-gradient(to bottom, #F6DA3D, #D0A01E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #f3f0d1;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #FFAE00;
+   -moz-box-shadow: 1px 1px 20px 0 #FFAE00;
+   box-shadow: 1px 1px 20px 0 #FFAE00;
+   text-shadow: 1px 1px 20px #FFAE00;
+   border: solid #FFAE00 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 75px;
+}
+
+.BUTTON_HQI:hover {
+   border: solid #FFAE00 1px;
+   background: #D0A01E;
+   background-image: -webkit-linear-gradient(top, #D0A01E, #F6DA3D);
+   background-image: -moz-linear-gradient(top, #D0A01E, #F6DA3D);
+   background-image: -ms-linear-gradient(top, #D0A01E, #F6DA3D);
+   background-image: -o-linear-gradient(top, #D0A01E, #F6DA3D);
+   background-image: -webkit-gradient(to bottom, #D0A01E, #F6DA3D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
